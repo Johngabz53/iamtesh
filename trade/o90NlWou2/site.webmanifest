@@ -1,0 +1,48 @@
+{
+    "name": "LocalCoinSwap",
+    "description": "Buy & sell Bitcoin, Ethereum on a P2P cryptocurrency exchange worldwide | LocalCoinSwap",
+    "short_name": "LocalCoinSwap",
+    "start_url": "/?source=pwa",
+    "scope": "/",
+    "theme_color": "#000000",
+    "background_color": "#000000",
+    "display": "standalone",
+    "dir": "auto",
+    "lang": "en",
+    "prefer_related_applications": false,
+    "display_override": [
+        "standalone",
+        "minimal-ui",
+        "browser"
+    ],
+    "shortcuts": [
+        {
+            "name": "Dashboard",
+            "url": "/dashboard"
+        },
+        {
+            "name": "Wallet",
+            "url": "/my-wallet"
+        }
+    ],
+    "screenshots" : [
+        {
+            "src": "/images/screenshots/home.jpg",
+            "sizes": "1081x2340",
+            "type": "image/jpg",
+            "platform": "narrow"
+        },
+        {
+            "src": "/images/screenshots/wallet.jpg",
+            "sizes": "1081x2340",
+            "type": "image/jpg",
+            "platform": "narrow"
+        },
+        {
+            "src": "/images/screenshots/buy-bitcoin.jpg",
+            "sizes": "1081x2340",
+            "type": "image/jpg",
+            "platform": "narrow"
+        }
+    ]
+}
